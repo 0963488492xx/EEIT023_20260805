@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>解釋 .preventDefault()</title>
+</head>
+
+<body>
+    <form action="">
+        <label>姓名</label>
+        <input type="text" name="name">
+        <button type="submit">送出</button>
+    </form>
+
+    <script>
+        const form = document.querySelector("form");
+        form.addEventListener("submit", function (event) {
+            event.preventDefault();
+            // 判斷輸入欄位是否都有填
+            // 最後要使用 form.submit() 再次送出
+        });
+    </script>
+</body>
+
+</html>
