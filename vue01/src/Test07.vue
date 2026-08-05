@@ -3,9 +3,10 @@ import { ref } from 'vue'
 
 const userID = ref('123')
 const userPassword = ref('')
+const userEmail = ref('')
 
 const handleSubmit = ()=>{
-    console.log(userID.value, userPassword.value);
+    console.log(userID.value, userPassword.value, userEmail.value);
     
 }
 </script>
@@ -20,6 +21,12 @@ const handleSubmit = ()=>{
       <label>password</label>
       <input type="password" v-model="userPassword">
     </div>
+
+    <div class="row">
+      <label>email</label>
+      <input type="email" v-model="userEmail">
+    </div>
+
     <div class="ctrl">
       <button>送出</button>
     </div>
