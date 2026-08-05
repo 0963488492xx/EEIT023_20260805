@@ -1,6 +1,6 @@
 import './assets/main.css'
 
 import { createApp } from 'vue'
-import App from './Card02.vue'
+import App from './Card03.vue'
 
 createApp(App).mount('#app')
