@@ -9,6 +9,8 @@ const items = ref(['蘋果', '香蕉', '橘子'])
 
 count.value++
 count2++
+items.value.push('草莓')
+items.value[count.value] = '香蕉香蕉'
 </script>
 
 <template>
