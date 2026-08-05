@@ -9,7 +9,7 @@ const key1 = ref('A')
     <input type="text" v-model="key1">
     <div v-show="key1 == 'A'">A</div>
     <div v-show="key1 == 'B'">B</div>
-    <div v-show="key1 == 'C'">C</div>
+    <div v-show="key1 != 'A' && key1 != 'B'">C</div>
 </template>
 
 <style scoped></style>
