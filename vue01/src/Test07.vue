@@ -21,6 +21,7 @@ const handleSubmit = ()=>{
       <label>password</label>
       <input type="password" v-model="userPassword">
     </div>
+<<<<<<< HEAD
      <div class="row">
       <label>email</label>
       <input type="email" v-model="userEmail">
@@ -30,6 +31,17 @@ const handleSubmit = ()=>{
     </div>
        
     
+=======
+
+    <div class="row">
+      <label>email</label>
+      <input type="email" v-model="userEmail">
+    </div>
+
+    <div class="ctrl">
+      <button>送出</button>
+    </div>
+>>>>>>> 7b0d7b2706a4c9a343df76a09d722c1eddb30554
   </form>
 </template>
 

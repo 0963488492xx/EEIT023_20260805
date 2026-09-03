@@ -5,7 +5,11 @@ const name = ref('Ben Chen')
 const count = ref(0)
 let count2 = 0
 const isVisible = ref(true)
+<<<<<<< HEAD
 const items = ref(['蘋果','香蕉','橘子'])
+=======
+const items = ref(['蘋果', '香蕉', '橘子'])
+>>>>>>> 7b0d7b2706a4c9a343df76a09d722c1eddb30554
 
 count.value++
 count2++
